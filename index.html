@@ -10,6 +10,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
         <link rel="manifest" href="./site.webmanifest">
         <link rel="stylesheet" type="text/css" href="./stylesheet/portfolio.css">
+        <script src="./Script/JavaScript.js"></script>
     </head>
 
     <!--Body-->
@@ -99,7 +100,7 @@
             <div class="Column_1 Column_tall">
                 <h1>Contact</h1>
                 <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form action="https://formspree.io/f/xnqwvljp" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <form id="myForm" action="https://formspree.io/f/xnqwvljp" target="_blank" onsubmit="validateForm()" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
                     <label>Name:</label>
                         <input type="text" id="Name" name="Contact" placeholder="Please enter your name here">
                     <label>Email:</label>
