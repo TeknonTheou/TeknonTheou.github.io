@@ -56,7 +56,7 @@ p {
 
 /* Paragraph element hover effect */
 p:hover {
-	color: darkslateblue;	/* Color changes when paragraph elements are hovered over */
+	color: slateblue;	/* Color changes when paragraph elements are hovered over */
     transition: transform 1s; /* This makes the transform effect last 1 second */
 	transform: scale(1.01); /* This makes the paragraphs increase slightly in size when hovered over */
 }
