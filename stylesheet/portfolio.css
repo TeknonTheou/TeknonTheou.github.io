@@ -25,7 +25,7 @@ body.fade-out {
 /* Heading 1 elements */
 h1 {
     text-transform: uppercase; /*capitalizing all h1 headings */
-    font-family: "Lucida Handwriting", Optima; /* Sets the font family of all h1 headings */
+    font-family: "Montserrat"; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
     color: #1a1a1a; 
